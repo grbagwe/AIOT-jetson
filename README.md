@@ -7,3 +7,39 @@
 - Introduction to Jetson nano.
 - Introduction to github.
 - Accessing the jetson nano through ssh.
+
+## Hardware Overview: 
+
+## Task 1 : Assembling the Jetson nano with the peripherals. 
+- Connect the Jetson nano developer kit  with the carrier board.
+- Connect the camera ribbon cable to the camera, and to the carrier board.
+- Connect the power cable, wifi dongle, and the ubs-c cable to the data transmission port.
+- Connect the power supply, and power on the Jetson nano.
+
+# Task 1.2: (Already done) Installing Jetson nano OS on the SD card. 
+- Jetson nano OS ( Jetpack 4.5.1) is already installed on the SD card. Alternatively can be installed using the following steps on the following link [Installing Jetpack](https://wiki.seeedstudio.com/reComputer_J1010_J101_Flash_Jetpack/)
+
+## Task 2 : Accessing the Jetson nano through ssh.
+- Knowing the IP address of the Jetson nano.
+## For Mac/Linux users :
+- use screen command on Mac/Linux terminal to access the Jetson nano.
+``` 
+screen /dev/tty.usbserial-XXXX 115200 
+```
+## For Windows users : 
+- Use putty to access the Jetson nano.
+- Download putty from the following link [Putty](https://www.putty.org/)
+- Open putty, and enter the COM port number, and the baud rate (115200).
+
+- Username : user1 Password : aiot@2024
+- Create additional users, and add them to the sudo group.
+```
+sudo adduser user2
+```
+- Login using ssh 
+``` 
+ssh user1@<ip address>
+```
+
+
+
