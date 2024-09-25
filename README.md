@@ -42,8 +42,10 @@ ifconfig
 - Create additional users, and add them to the sudo group.
 ```
 sudo adduser user2
+sudo usermod -aG sudo user2
 ```
 - Login using ssh 
+
 ``` 
 ssh user1@<ip address>
 ```
