@@ -10,12 +10,15 @@
 
 ## Hardware Overview:
 ![ports](https://files.seeedstudio.com/wiki/recomputer-Jetson-20-1-H1/jetson-a01mark.png)
+![carrier board](https://files.seeedstudio.com/wiki/reComputer/reComputerJ101v2.png)
 
 - Complete hardware specifications [link](https://wiki.seeedstudio.com/reComputer_Jetson_Series_Hardware_Layout/#detailed-comparison)
 
 ## Task 1 : Assembling the Jetson nano with the peripherals. 
 - Connect the Jetson nano developer kit Module  with the carrier board.
+![Jetson nano](https://files.seeedstudio.com/wiki/recomputer-Jetson-20-1-H1/reComputerreinstalltion2.jpg)
 - Connect the camera ribbon cable to the camera, and to the carrier board.
+![camera](https://files.seeedstudio.com/wiki/reComputer-Jetson-Nano/cha.jpg)
 - Connect the power cable, wifi dongle, and the ubs-c cable to the data transmission port.
 - Connect the power supply, and power on the Jetson nano.
 
