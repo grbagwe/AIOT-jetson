@@ -1,4 +1,7 @@
-# There are two sets of demos from cuda
+# CUDA and vision demos
+
+There are two sets of demos from cuda and few more from jetson inference
+First we will see the demos from cuda and then the demos from jetson inference
 
 # ## CUDA Demos
 
