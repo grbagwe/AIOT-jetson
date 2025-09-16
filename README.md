@@ -41,7 +41,7 @@ screen /dev/tty.usbserial-XXXX 115200
 ``` 
 ifconfig
 ```
-- Username : user1 Password : aiot@2024
+- Username : aiot Password : clemson-25
 - Create additional users, and add them to the sudo group.
 ```
 sudo adduser user2
