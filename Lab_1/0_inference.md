@@ -58,8 +58,8 @@ To perform pose estimation inference using a pre-trained model, follow these ste
    ```
 3. Run the pose estimation example with a pre-trained model (e.g., openpose):
    ```bash
-  ./posenet "images/humans_*.jpg" images/test/pose_humans_%i.jpg
-  ```
+   ./posenet "images/humans_*.jpg" images/test/pose_humans_%i.jpg
+   ```
 4. The output images with the pose estimation results will be saved in the specified output path (e.g., `images/test/pose_humans_%i.jpg`).
 
 
