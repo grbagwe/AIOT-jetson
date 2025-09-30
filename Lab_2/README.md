@@ -43,7 +43,7 @@ python3 tensorRT_evaluate.py
 
 ## 6. Evaluate PyTorch Model
 ```
-python evaluate_pytorch_model.py
+python3 evaluate_pytorch_model.py
 ```
 
 
