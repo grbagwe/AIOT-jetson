@@ -6,9 +6,8 @@ This lab demonstrates post-training quantization of a PyTorch model trained on t
 
 ## 1. Train the Model
 Train a CIFAR-10 classifier in Google Colab. Save the PyTorch checkpoint:
-
+[url]https://colab.research.google.com/drive/1t_E4FTtXOh1VAJsq22fM8IwLnjFX9Kk8?usp=sharing
 ```python
-torch.save(model.state_dict(), "cifar10_model.pt")
 ```
 
 
@@ -31,7 +30,7 @@ python3 get_onnx.py
 ## 4. Convert ONNX to TensorRT INT8
 ```
 /usr/src/tensorrt/bin/trtexec \
-  --onnx=cifar10_model.onnx \
+  --onnx=cifar10.onnx \
   --saveEngine=cifar10_model.engine
 ```
 
