@@ -30,7 +30,7 @@ python3 get_onnx.py
 ## 4. Convert ONNX to TensorRT INT8
 ```
 /usr/src/tensorrt/bin/trtexec \
-  --onnx=cifar10.onnx \
+  --onnx=cifar10_model.onnx \
   --saveEngine=cifar10_model.engine
 ```
 
